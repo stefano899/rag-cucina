@@ -1,0 +1,11 @@
+{
+  "name": "rag-cucina",
+  "dockerComposeFile": "../compose.yaml",
+  "service": "app",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [ "ms-python.python", "anthropic.claude-code" ]
+    }
+  }
+}
